@@ -1,0 +1,533 @@
+Netlist
+
+Exported from relay board.sch at 25/12/2014 21:05:20
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Net      Part     Pad      Pin        Sheet
+
++5V      C1       +        +          1
+         K_0.375_DB 1        1          1
+         K_0.75_DB 1        1          1
+         K_1.5_DB 1        1          1
+         K_12.0_DB 1        1          1
+         K_24.0_DB 1        1          1
+         K_3.0_DB 1        1          1
+         K_48.0_DB 1        1          1
+         K_6.0_DB 1        1          1
+         K_ASS    1        1          1
+         K_IA1    1        1          1
+         K_IA2    1        1          1
+         K_IA3    1        1          1
+         K_IS1    1        1          1
+         K_IS2    1        1          1
+         K_MUTE   1        1          1
+         K_PRE_SEL_I 1        1          1
+         K_PRE_SEL_O 1        1          1
+         LD1      16       VDD        1
+         LD2      5        VCC        1
+         LED_DR   10       COM        1
+         LED_IN1  A        A          1
+         LED_IN1B A        A          1
+         LED_IN2  A        A          1
+         LED_IN2B A        A          1
+         LED_IN3  A        A          1
+         LED_IN3B A        A          1
+         LED_IN4  A        A          1
+         LED_IN4B A        A          1
+         LED_IN5  A        A          1
+         LED_IN5B A        A          1
+         LED_IN6  A        A          1
+         LED_IN6B A        A          1
+         LED_OUT1 A        A          1
+         LED_OUT2 A        A          1
+         LED_OUT_RCA A        A          1
+         LED_OUT_RCA2 A        A          1
+         LED_OUT_XLR1 A        A          1
+         LED_OUT_XLR2 A        A          1
+         MUX      18       !RESET     1
+         MUX      9        VDD        1
+         RADDR_REL0 2        2          1
+         RADDR_REL1 2        2          1
+         RADDR_REL2 2        2          1
+         RL_DR    10       COM        1
+         VOL_DR   10       COM        1
+         X2       1        S          1
+         X6       1        S          1
+
+GND      C1       -        -          1
+         LD1      1        B4         1
+         LD1      15       A4         1
+         LD1      2        A3         1
+         LD1      7        B1         1
+         LD1      8        VSS        1
+         LD2      3        GND        1
+         LED_DR   7        7B         1
+         LED_DR   8        8B         1
+         LED_DR   9        GND        1
+         MUX      10       VSS        1
+         RL_DR    9        GND        1
+         VOL_DR   9        GND        1
+         X1       1        S          1
+         X1       3        S          1
+         X1       5        S          1
+         X2       4        S          1
+         X6       4        S          1
+
+GND_AUDIO EXT_PRE_IN 2        S          1
+         K_ASS    S1       S          1
+         K_IA1    S1       S          1
+         K_IA2    S1       S          1
+         K_MUTE   O1       O          1
+         K_MUTE   O2       O          1
+         PHONO_GND TP       TP         1
+         PREAMP1  3        S          1
+         PREAMP2  3        S          1
+         RCA_IN_3 1        1          1
+         RCA_OUT_1 1        1          1
+         RIAA     3        S          1
+         ROUT     1        1          1
+         ROUT1    2        2          1
+         RVOL0    1        1          1
+         RVOL10   1        1          1
+         RVOL12   1        1          1
+         RVOL14   1        1          1
+         RVOL16   2        2          1
+         RVOL18   2        2          1
+         RVOL2    1        1          1
+         RVOL20   2        2          1
+         RVOL22   2        2          1
+         RVOL24   2        2          1
+         RVOL26   2        2          1
+         RVOL28   2        2          1
+         RVOL30   2        2          1
+         RVOL4    1        1          1
+         RVOL6    1        1          1
+         RVOL8    1        1          1
+         X_OUT_1  1        1          1
+         X_OUT_1  G        G          1
+
+GP_ASYM  LD1      9        G2         1
+         MUX      24       GPA3       1
+         RL_DR    5        5B         1
+
+GP_IN1   LD1      5        B2         1
+         LD1      6        A1         1
+         LED_DR   2        2B         1
+         MUX      21       GPA0       1
+         RL_DR    8        8B         1
+
+GP_IN2   LD1      3        B3         1
+         LD1      4        A2         1
+         LED_DR   4        4B         1
+         MUX      22       GPA1       1
+         RL_DR    7        7B         1
+
+GP_IN3   LD2      2        B          1
+         LED_DR   6        6B         1
+         MUX      23       GPA2       1
+         RL_DR    6        6B         1
+
+GP_MUTE  MUX      26       GPA5       1
+         RL_DR    3        3B         1
+
+IN1_&_!AS LD1      10       D1         1
+         LED_DR   1        1B         1
+
+IN1_&_AS_||_IN2_&_!AS LD1      11       D2         1
+         LED_DR   3        3B         1
+
+IN2_&_AS_||_IN3 LD2      4        Y          1
+         LED_DR   5        5B         1
+
+IN_&_ASYM LD1      12       D3         1
+         LD2      1        A          1
+
+IN_SELECTED+ EXT_PRE_IN 1        S          1
+         K_ASS    P2       P          1
+         K_PRE_SEL_I P2       P          1
+
+IN_SELECTED- EXT_PRE_IN 3        S          1
+         K_ASS    P1       P          1
+         K_PRE_SEL_I P1       P          1
+
+IN_SELECTED_ASYM K_ASS    S2       S          1
+         K_IA1    S2       S          1
+         K_IA2    S2       S          1
+
+IN_SYM+  K_ASS    O2       O          1
+         K_IA3    S2       S          1
+         K_IS1    S2       S          1
+         K_IS2    S2       S          1
+
+IN_SYM-  K_ASS    O1       O          1
+         K_IA3    S1       S          1
+         K_IS1    S1       S          1
+         K_IS2    S1       S          1
+
+IN_VOL+  K_0.375_DB S1       S          1
+         K_PRE_SEL_O P2       P          1
+         RVOL1    2        2          1
+
+IN_VOL-  K_0.375_DB S2       S          1
+         K_PRE_SEL_O P1       P          1
+         RVOL17   2        2          1
+
+LED1     LED_DR   18       1C         1
+         RLED1    1        1          1
+
+LED2     LED_DR   17       2C         1
+         RLED2    1        1          1
+
+LED3     LED_DR   16       3C         1
+         RLED3    1        1          1
+
+LED4     LED_DR   15       4C         1
+         RLED4    1        1          1
+
+LED5     LED_DR   14       5C         1
+         RLED5    1        1          1
+
+LED6     LED_DR   13       6C         1
+         RLED6    1        1          1
+
+LED7     RLED71   1        1          1
+         RLED72   1        1          1
+         RLED73   1        1          1
+         RL_DR    15       4C         1
+
+N$1      MUX      25       GPA4       1
+         RL_DR    4        4B         1
+
+N$2      MUX      27       GPA6       1
+         RL_DR    2        2B         1
+
+N$3      K_IA1    P2       P          1
+         RCA_IN_1 2        2          1
+         RCA_IN_1 5        5          1
+
+N$5      LED_OUT_XLR1 K        C          1
+         LED_OUT_XLR2 K        C          1
+         RLED71   2        2          1
+
+N$6      LED_OUT1 K        C          1
+         LED_OUT2 K        C          1
+         RLED72   2        2          1
+
+N$7      MUX      28       GPA7       1
+         RL_DR    1        1B         1
+
+N$8      LED_OUT_RCA K        C          1
+         LED_OUT_RCA2 K        C          1
+         RLED73   2        2          1
+
+N$11     MUX      8        GPB7       1
+         VOL_DR   1        1B         1
+
+N$12     MUX      7        GPB6       1
+         VOL_DR   2        2B         1
+
+N$13     MUX      6        GPB5       1
+         VOL_DR   3        3B         1
+
+N$14     MUX      5        GPB4       1
+         VOL_DR   4        4B         1
+
+N$15     MUX      4        GPB3       1
+         VOL_DR   5        5B         1
+
+N$16     MUX      3        GPB2       1
+         VOL_DR   6        6B         1
+
+N$17     MUX      2        GPB1       1
+         VOL_DR   7        7B         1
+
+N$18     MUX      1        GPB0       1
+         VOL_DR   8        8B         1
+
+N$21     K_IA2    P1       P          1
+         RCA_IN_2 1        1          1
+         X_IN_2   1        2          1
+         X_IN_2   G        G          1
+
+N$22     K_IS2    P2       P          1
+         X_IN_2   2        1          1
+
+N$23     K_IS2    P1       P          1
+         X_IN_2   3        3          1
+
+N$25     LED_IN5  K        C          1
+         LED_IN5B K        C          1
+         RLED5    2        2          1
+
+N$26     LED_IN6  K        C          1
+         LED_IN6B K        C          1
+         RLED6    2        2          1
+
+N$27     LED_IN3  K        C          1
+         LED_IN3B K        C          1
+         RLED3    2        2          1
+
+N$28     LED_IN4  K        C          1
+         LED_IN4B K        C          1
+         RLED4    2        2          1
+
+N$29     K_IA2    P2       P          1
+         RCA_IN_2 2        2          1
+         RCA_IN_2 5        5          1
+
+N$30     MUX      15       A0         1
+         RADDR_REL0 1        1          1
+         X1       2        S          1
+
+N$31     MUX      16       A1         1
+         RADDR_REL1 1        1          1
+         X1       4        S          1
+
+N$32     K_IA1    P1       P          1
+         RCA_IN_1 1        1          1
+         X_IN_1   1        2          1
+         X_IN_1   G        G          1
+
+N$33     K_IS1    P2       P          1
+         X_IN_1   2        1          1
+
+N$34     K_IS1    P1       P          1
+         X_IN_1   3        3          1
+
+N$35     MUX      17       A2         1
+         RADDR_REL2 1        1          1
+         X1       6        S          1
+
+N$36     LED_IN2  K        C          1
+         LED_IN2B K        C          1
+         RLED2    2        2          1
+
+N$37     LED_IN1  K        C          1
+         LED_IN1B K        C          1
+         RLED1    2        2          1
+
+N$39     K_0.375_DB O1       O          1
+         RVOL0    2        2          1
+
+N$40     K_0.375_DB O2       O          1
+         RVOL16   1        1          1
+
+N$41     K_0.75_DB O1       O          1
+         RVOL2    2        2          1
+
+N$42     K_MUTE   P1       P          1
+         X_OUT_1  3        3          1
+
+N$43     K_MUTE   P2       P          1
+         RCA_OUT_1 2        2          1
+         RCA_OUT_1 5        5          1
+         X_OUT_1  2        2          1
+
+N$47     K_1.5_DB O1       O          1
+         RVOL4    2        2          1
+
+N$49     K_3.0_DB O1       O          1
+         RVOL6    2        2          1
+
+N$50     K_0.75_DB O2       O          1
+         RVOL18   1        1          1
+
+N$51     K_6.0_DB O1       O          1
+         RVOL8    2        2          1
+
+N$52     K_0.375_DB P2       P          1
+         K_0.75_DB S2       S          1
+         RVOL17   1        1          1
+         RVOL19   2        2          1
+
+N$53     K_12.0_DB O1       O          1
+         RVOL10   2        2          1
+
+N$54     K_1.5_DB O2       O          1
+         RVOL20   1        1          1
+
+N$55     K_24.0_DB O1       O          1
+         RVOL12   2        2          1
+
+N$56     K_0.75_DB P2       P          1
+         K_1.5_DB S2       S          1
+         RVOL19   1        1          1
+         RVOL21   2        2          1
+
+N$57     K_48.0_DB O1       O          1
+         RVOL14   2        2          1
+
+N$58     K_3.0_DB O2       O          1
+         RVOL22   1        1          1
+
+N$59     K_0.375_DB P1       P          1
+         K_0.75_DB S1       S          1
+         RVOL1    1        1          1
+         RVOL3    2        2          1
+
+N$60     K_0.75_DB P1       P          1
+         K_1.5_DB S1       S          1
+         RVOL3    1        1          1
+         RVOL5    2        2          1
+
+N$61     K_1.5_DB P1       P          1
+         K_3.0_DB S1       S          1
+         RVOL5    1        1          1
+         RVOL7    2        2          1
+
+N$62     K_3.0_DB P1       P          1
+         K_6.0_DB S1       S          1
+         RVOL7    1        1          1
+         RVOL9    2        2          1
+
+N$63     K_12.0_DB S1       S          1
+         K_6.0_DB P1       P          1
+         RVOL11   2        2          1
+         RVOL9    1        1          1
+
+N$64     K_12.0_DB P1       P          1
+         K_24.0_DB S1       S          1
+         RVOL11   1        1          1
+         RVOL13   2        2          1
+
+N$65     K_24.0_DB P1       P          1
+         K_48.0_DB S1       S          1
+         RVOL13   1        1          1
+         RVOL15   2        2          1
+
+N$66     K_1.5_DB P2       P          1
+         K_3.0_DB S2       S          1
+         RVOL21   1        1          1
+         RVOL23   2        2          1
+
+N$67     K_6.0_DB O2       O          1
+         RVOL24   1        1          1
+
+N$68     K_3.0_DB P2       P          1
+         K_6.0_DB S2       S          1
+         RVOL23   1        1          1
+         RVOL25   2        2          1
+
+N$69     K_12.0_DB O2       O          1
+         RVOL26   1        1          1
+
+N$70     K_12.0_DB S2       S          1
+         K_6.0_DB P2       P          1
+         RVOL25   1        1          1
+         RVOL27   2        2          1
+
+N$71     K_24.0_DB O2       O          1
+         RVOL28   1        1          1
+
+N$72     K_12.0_DB P2       P          1
+         K_24.0_DB S2       S          1
+         RVOL27   1        1          1
+         RVOL29   2        2          1
+
+N$73     K_48.0_DB O2       O          1
+         RVOL30   1        1          1
+
+N$74     K_24.0_DB P2       P          1
+         K_48.0_DB S2       S          1
+         RVOL29   1        1          1
+         RVOL31   2        2          1
+
+OUT_VOL+ K_48.0_DB P1       P          1
+         K_MUTE   S2       S          1
+         ROUT     2        2          1
+         RVOL15   1        1          1
+
+OUT_VOL- K_48.0_DB P2       P          1
+         K_MUTE   S1       S          1
+         ROUT1    1        1          1
+         RVOL31   1        1          1
+
+PREAMP1_IN+ K_PRE_SEL_I O2       O          1
+         PREAMP1  2        S          1
+
+PREAMP1_IN- K_PRE_SEL_I O1       O          1
+         PREAMP1  4        S          1
+
+PREAMP1_OUT+ K_PRE_SEL_O O2       O          1
+         PREAMP1  1        S          1
+
+PREAMP1_OUT- K_PRE_SEL_O O1       O          1
+         PREAMP1  5        S          1
+
+PREAMP2_IN+ K_PRE_SEL_I S2       S          1
+         PREAMP2  2        S          1
+
+PREAMP2_IN- K_PRE_SEL_I S1       S          1
+         PREAMP2  4        S          1
+
+PREAMP2_OUT+ K_PRE_SEL_O S2       S          1
+         PREAMP2  1        S          1
+
+PREAMP2_OUT- K_PRE_SEL_O S1       S          1
+         PREAMP2  5        S          1
+
+RIAA_IN+ RCA_IN_3 2        2          1
+         RCA_IN_3 5        5          1
+         RIAA     2        S          1
+
+RIAA_OUT+ K_IA3    P2       P          1
+         RIAA     1        S          1
+
+RIAA_OUT- K_IA3    P1       P          1
+         RIAA     5        S          1
+
+RS_ASYM  K_ASS    10       2          1
+         LD1      14       G1         1
+         RL_DR    14       5C         1
+
+RS_IN1   K_IA1    10       2          1
+         K_IS1    10       2          1
+         RL_DR    11       8C         1
+
+RS_IN2   K_IA2    10       2          1
+         K_IS2    10       2          1
+         RL_DR    12       7C         1
+
+RS_IN3   K_IA3    10       2          1
+         RL_DR    13       6C         1
+
+RS_MUTE  K_MUTE   10       2          1
+         RL_DR    16       3C         1
+
+RS_PRE_SEL K_PRE_SEL_I 10       2          1
+         K_PRE_SEL_O 10       2          1
+         RL_DR    17       2C         1
+
+RS_VOL0  K_0.375_DB 10       2          1
+         VOL_DR   11       8C         1
+
+RS_VOL1  K_0.75_DB 10       2          1
+         VOL_DR   12       7C         1
+
+RS_VOL2  K_1.5_DB 10       2          1
+         VOL_DR   13       6C         1
+
+RS_VOL3  K_3.0_DB 10       2          1
+         VOL_DR   14       5C         1
+
+RS_VOL4  K_6.0_DB 10       2          1
+         VOL_DR   15       4C         1
+
+RS_VOL5  K_12.0_DB 10       2          1
+         VOL_DR   16       3C         1
+
+RS_VOL6  K_24.0_DB 10       2          1
+         VOL_DR   17       2C         1
+
+RS_VOL7  K_48.0_DB 10       2          1
+         VOL_DR   18       1C         1
+
+SCL      MUX      12       SCL        1
+         X2       2        S          1
+         X6       2        S          1
+
+SDA      MUX      13       SDA        1
+         X2       3        S          1
+         X6       3        S          1
+
